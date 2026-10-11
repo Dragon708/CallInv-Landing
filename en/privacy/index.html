@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Privacy policy · CalInv</title>
-  <meta name="description" content="What data CalInv handles and where it lives: everything stays on your phone.">
+  <title>Privacy policy · Calinv</title>
+  <meta name="description" content="What data Calinv handles and where it lives: in the free version, on your phone, except anonymous error reports you can turn off; with Premium, also on the Calinv server.">
   <link rel="canonical" href="https://calinv.vercel.app/en/privacy">
   <link rel="alternate" hreflang="es" href="https://calinv.vercel.app/privacidad">
   <link rel="alternate" hreflang="en" href="https://calinv.vercel.app/en/privacy">
@@ -20,9 +20,9 @@
 <body>
   <header class="site-header">
     <div class="wrap">
-      <a class="logo" href="/en" aria-label="CalInv home">
+      <a class="logo" href="/en" aria-label="Calinv home">
         <img src="/assets/logo-mark.png" alt="" width="34" height="34">
-        <span>Cal<span class="inv">Inv</span></span>
+        <span>Cal<span class="inv">inv</span></span>
       </a>
       <nav class="nav" aria-label="Main">
         <a href="/en">Home</a>
@@ -37,22 +37,53 @@
   <main>
     <div class="legal-hero">
       <div class="wrap">
-        <h1>CalInv privacy policy</h1>
-        <p>Last updated: October 7, 2026</p>
+        <h1>Calinv privacy policy</h1>
+        <p>Last updated: October 10, 2026</p>
       </div>
     </div>
 
     <article class="wrap legal">
-      <p>CalInv is an offline stock and sales app. This policy explains what data it handles and where that data lives.</p>
+      <p>Calinv is an offline stock and sales app. This policy explains what data it handles, where that data lives and how to turn off what is sent. There are two ways to use it: the <strong>free version</strong>, where your data stays on your phone, and <strong>Calinv Premium</strong> (optional and paid), where your store's data is also kept on the Calinv server so several devices can sync.</p>
 
       <h2>What the app stores</h2>
       <ul>
         <li>What you enter: store name, products, prices, costs, currencies and exchange rates, stock entries, losses, sales, payments and returns.</li>
         <li>Product photos you take with the camera or pick from your gallery.</li>
+        <li>A log of the app's technical errors (Settings → Error log).</li>
       </ul>
 
-      <h2>Where it lives</h2>
-      <p>Everything is stored <strong>only on your phone</strong>, in the app's private storage. CalInv has no servers, creates no accounts and sends your data to no one. It uses no ads, no analytics and no third-party services that collect information.</p>
+      <h2>Where it lives in the free version</h2>
+      <p>Your data is stored <strong>only on your phone</strong>, in the app's private storage. Even if you create a Calinv account (name, e-mail and password, stored encrypted on the server), the free version sends your products, prices, sales and photos to no one. The only thing it sends over the internet is the anonymous error reports described below, and you can turn them off. It uses no ads, no analytics and no third-party services that collect information.</p>
+
+      <h2>Anonymous error reports</h2>
+      <p>When something fails in the app, the failure is noted on the phone and, if the switch is on (it is when you install the app), sent to the Calinv server so we can fix it.</p>
+      <p><strong>What each report includes:</strong></p>
+      <ul>
+        <li>the technical error message and where in the code it happened;</li>
+        <li>the app screen where it happened (without the internal numbers of products or sales), the kind of failure and the date and time;</li>
+        <li>the app version, the system (Android or iOS) and the version of the app's database;</li>
+        <li>an <strong>install number</strong> chosen at random the first time you open the app. It is not tied to your name, your phone, your phone number or any account; it is used to count how many installs have the same failure and to apply a daily limit.</li>
+      </ul>
+      <p><strong>What it does not include:</strong> your store name, products, prices, costs, sales, photos, contacts or location.</p>
+      <p><strong>What is removed before sending:</strong> before the error is saved on the phone, and again when it reaches the server, e-mail addresses, phone numbers, any number of 7 or more digits (such as card or ID numbers), PINs, passwords and access codes, and user names inside file paths are removed.</p>
+      <p><strong>How much and when:</strong> at most once an hour, only when there is a connection, and at most 50 reports a day per install.</p>
+      <p><strong>Your IP address:</strong> the server uses it to limit abuse (it counts the day's reports in memory) and does not store it with the reports. It does appear in the server's technical logs, which overwrite themselves over time.</p>
+      <p><strong>How long:</strong> reports are deleted from the server after 90 days. The server's encrypted backups may keep them for up to 12 months.</p>
+      <p><strong>How to turn it off:</strong> in Settings → Error log, turn off "Send error reports". With the switch off, the free version does not connect to the internet at all. You can turn it back on at any time.</p>
+
+      <h2>Calinv Premium</h2>
+      <p>If you connect your business to Calinv Premium, besides staying on your phone, this data is kept on the Calinv server, a server of our own hosted in the United States (Hetzner, in Ashburn, Virginia):</p>
+      <ul>
+        <li>your account: name, e-mail and password (stored as an encrypted fingerprint, never the password itself);</li>
+        <li>your organization, stores and staff: names, e-mails, roles and the password stored encrypted (never in plain text);</li>
+        <li>each store's data: products, variants, categories, prices, costs, currencies and rates, lots, stock entries, losses, sales, payments and returns, and who made each change from which device;</li>
+        <li>product photos (by default they go up and down over Wi-Fi only);</li>
+        <li>registered devices: name, app version and last connection;</li>
+        <li>Premium payment notices by Transfermóvil: amount and transaction ID;</li>
+        <li>those devices' error reports, with the store, device and user, cleaned like the anonymous ones (at most 200 a day per device) and kept 90 days. They are also turned off in Settings → Error log.</li>
+      </ul>
+      <p>Everything travels encrypted (HTTPS). This data is used only to sync your devices, back them up and give you support: it is not sold, not shared with third parties and not used for advertising. The server sends e-mail through a mail service only for payment notices to the Calinv administrator and for password recovery codes; those e-mails carry no store data. The server makes encrypted backups that are kept for up to 12 months.</p>
+      <p>To ask us to delete your organization's data from the server, write to the contact address below from your account's e-mail.</p>
 
       <h2>Backups</h2>
       <p>When you choose "Create and share backup", the app builds a file with your data and photos and opens your phone's share menu. You decide where to save it or whom to send it to; from then on, that file is under the control of the service you chose.</p>
@@ -64,10 +95,11 @@
       </ul>
 
       <h2>Deleting your data</h2>
-      <p>You can delete products and archive what you no longer use inside the app. To delete everything, uninstall CalInv: the system removes all of its data from the phone. Backups you saved outside the app are not deleted automatically.</p>
+      <p>You can delete products and archive what you no longer use inside the app, and clear the error log in Settings → Error log. To delete everything from the phone, uninstall Calinv: the system removes all of its data. Backups you saved outside the app are not deleted automatically.</p>
+      <p>Anonymous error reports are not tied to you, so we cannot tell which ones are yours; they are deleted automatically after 90 days. Premium data is deleted on request (see above).</p>
 
       <h2>Children</h2>
-      <p>CalInv is meant for businesses and is not directed at children under 13.</p>
+      <p>Calinv is meant for businesses and is not directed at children under 13.</p>
 
       <h2>Changes</h2>
       <p>If this policy changes, the new version will be published at this same address with its update date.</p>
@@ -80,7 +112,7 @@
 
   <footer class="site-footer">
     <div class="wrap">
-      <span>© 2026 CalInv</span>
+      <span>© 2026 Calinv</span>
       <nav aria-label="Footer">
         <a href="/en">Home</a>
         <a href="/privacidad" hreflang="es" lang="es">Español</a>

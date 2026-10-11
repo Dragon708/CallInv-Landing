@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>CalInv: inventario y ventas para tu tienda, sin internet</title>
-  <meta name="description" content="Controla el inventario y las ventas de tu tienda desde el teléfono, sin internet. Para bodegas, mipymes, ferreterías y negocios pequeños. Gratis, muy pronto en Google Play.">
+  <title>Calinv: inventario y ventas para tu tienda, sin internet</title>
+  <meta name="description" content="Controla el inventario y las ventas de tu tienda desde el teléfono, sin internet. Gratis para un negocio; con Premium, sincroniza varios teléfonos, varias tiendas, tu personal y el cuadre de caja. Muy pronto en Google Play.">
   <link rel="canonical" href="https://calinv.vercel.app/">
   <link rel="alternate" hreflang="es" href="https://calinv.vercel.app/">
   <link rel="alternate" hreflang="en" href="https://calinv.vercel.app/en">
@@ -14,7 +14,7 @@
   <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://calinv.vercel.app/">
-  <meta property="og:title" content="CalInv: inventario y ventas">
+  <meta property="og:title" content="Calinv: inventario y ventas">
   <meta property="og:description" content="El inventario y la caja de tu tienda, en el teléfono y sin internet.">
   <meta property="og:image" content="https://calinv.vercel.app/assets/og.png">
   <meta property="og:locale" content="es_419">
@@ -28,12 +28,13 @@
 <body>
   <header class="site-header">
     <div class="wrap">
-      <a class="logo" href="/" aria-label="CalInv, inicio">
+      <a class="logo" href="/" aria-label="Calinv, inicio">
         <img src="/assets/logo-mark.png" alt="" width="34" height="34">
-        <span>Cal<span class="inv">Inv</span></span>
+        <span>Cal<span class="inv">inv</span></span>
       </a>
       <nav class="nav" aria-label="Principal">
         <a class="hide-sm" href="#funciones">Funciones</a>
+        <a class="hide-sm" href="#premium">Premium</a>
         <a class="hide-sm" href="#capturas">Capturas</a>
         <a class="hide-sm" href="/privacidad">Privacidad</a>
         <div class="lang-switch" data-active="es" role="group" aria-label="Idioma">
@@ -48,9 +49,9 @@
     <div class="hero">
       <div class="wrap">
         <div>
-          <span class="eyebrow">Gratis · Sin internet · Sin cuentas</span>
+          <span class="eyebrow">Gratis · Sin internet · Sin publicidad</span>
           <h1>El inventario y la caja de tu tienda, <em>en el teléfono</em>.</h1>
-          <p class="lead">CalInv es para bodegas, mipymes, ferreterías y cualquier negocio pequeño que hoy lleva las cuentas en una libreta. Controla el stock, vende en pocos toques y conoce tu ganancia real.</p>
+          <p class="lead">Calinv es para bodegas, mipymes, ferreterías y cualquier negocio pequeño que hoy lleva las cuentas en una libreta. Controla el stock, vende en pocos toques y conoce tu ganancia real. Cuando crezcas, Premium suma tu equipo, tus tiendas y la sincronización entre teléfonos.</p>
           <div class="cta-row">
             <!-- Cuando la app esté en producción, cambia este span por:
              <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.calinv.app&amp;hl=es_419"> ... Descargar en Google Play</a> -->
@@ -62,13 +63,13 @@
           </div>
           <ul class="trust">
             <li>Funciona sin internet</li>
-            <li>Tus datos se quedan en tu teléfono</li>
+            <li>En la versión gratis, tus datos se quedan en tu teléfono</li>
             <li>Sin publicidad</li>
           </ul>
         </div>
         <div class="hero-phone">
           <div class="phone">
-            <img src="/assets/screens/1-inicio.webp" width="672" height="1344" alt="Pantalla de inicio de CalInv con ventas del día, ganancia neta, pérdidas y gráfico de ventas por hora" fetchpriority="high">
+            <img src="/assets/screens/1-inicio.webp" width="672" height="1344" alt="Pantalla de inicio de Calinv con ventas del día, ganancia neta, pérdidas y gráfico de ventas por hora" fetchpriority="high">
           </div>
         </div>
       </div>
@@ -77,9 +78,9 @@
     <section id="funciones">
       <div class="wrap">
         <div class="section-head">
-          <div class="kicker">Funciones</div>
+          <div class="kicker">Versión gratis</div>
           <h2>Todo lo que necesita tu negocio, sin complicaciones.</h2>
-          <p>Desde la entrada de mercancía hasta el vuelto del cliente, CalInv lleva las cuentas por ti.</p>
+          <p>La versión gratis lleva un negocio completo en el teléfono, sin internet: desde la entrada de mercancía hasta el vuelto del cliente.</p>
         </div>
         <div class="features">
           <article class="feature">
@@ -89,8 +90,7 @@
               <li>Productos por unidad, peso o volumen, con variantes (tallas, sabores) y presentaciones (suelta, 6-pack, caja).</li>
               <li>Entradas por lote con su costo, moneda y fecha de vencimiento.</li>
               <li>Mermas, productos dañados o vencidos y conteos físicos que ajustan el stock solos.</li>
-              <li>Avisos de stock bajo y de productos por vencer.</li>
-              <li>Historial completo de movimientos de cada producto.</li>
+              <li>Avisos de stock bajo y de productos por vencer, e historial de movimientos de cada producto.</li>
             </ul>
           </article>
           <article class="feature">
@@ -113,11 +113,13 @@
             </ul>
           </article>
           <article class="feature">
-            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9 4.5 4h15L21 9"/><path d="M3 9h18v2a3 3 0 0 1-6 0 3 3 0 0 1-6 0 3 3 0 0 1-6 0V9Z"/><path d="M5 13v7h14v-7"/></svg></div>
-            <h3>Varios negocios</h3>
+            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 3-3 3M12 17h.01"/></svg></div>
+            <h3>Fácil de aprender, segura de usar</h3>
             <ul>
-              <li>Lleva más de una tienda en el mismo teléfono, cada una con sus propios datos.</li>
-              <li>Disponible en español e inglés, con tema claro y oscuro.</li>
+              <li>Un recorrido guiado te enseña cada pantalla la primera vez, y puedes repetirlo cuando quieras.</li>
+              <li>Ayuda paso a paso dentro de la app, con búsqueda, que funciona sin conexión.</li>
+              <li>Respaldo de tus datos y fotos en un solo archivo que guardas donde quieras.</li>
+              <li>En español e inglés, con tema claro y oscuro.</li>
             </ul>
           </article>
         </div>
@@ -141,17 +143,130 @@
       </div>
     </section>
 
+    <section id="premium">
+      <div class="wrap">
+        <div class="section-head">
+          <div class="kicker">Calinv Premium</div>
+          <h2>Para cuando tu negocio tiene más de un teléfono.</h2>
+          <p>Todo lo de la versión gratis, más tu equipo, tus tiendas y una copia en línea. Sigue funcionando sin internet.</p>
+          <p class="price-tag"><strong>500 CUP</strong> al mes <span>precio actual · pago por Transfermóvil</span></p>
+        </div>
+        <div class="features features-3">
+          <article class="feature">
+            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17.5 19H9a7 7 0 1 1 6.7-9h1.8a4.5 4.5 0 1 1 0 9Z"/><path d="m9 14 2 2 4-4"/></svg></div>
+            <h3>Sincroniza aunque se vaya la red</h3>
+            <ul>
+              <li>Todos los teléfonos de la tienda ven el mismo stock y las mismas ventas.</li>
+              <li>Sin conexión se sigue vendiendo; al volver la red, todo sube solo, sin duplicar ni perder nada.</li>
+              <li>Copia en línea de tu negocio, y fotos de productos en la nube (por defecto solo con Wi-Fi).</li>
+            </ul>
+          </article>
+          <article class="feature">
+            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9 4.5 4h15L21 9"/><path d="M3 9h18v2a3 3 0 0 1-6 0 3 3 0 0 1-6 0 3 3 0 0 1-6 0V9Z"/><path d="M5 13v7h14v-7"/></svg></div>
+            <h3>Varios negocios y tiendas</h3>
+            <ul>
+              <li>Cada tienda con su propio catálogo, precios, stock y ventas.</li>
+              <li>Abre una tienda nueva clonando el catálogo de otra, sin el stock.</li>
+              <li>El dueño ve todas sus tiendas desde su cuenta.</li>
+            </ul>
+          </article>
+          <article class="feature">
+            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.9M16 3.1a4 4 0 0 1 0 7.8"/></svg></div>
+            <h3>Tu personal, cada uno con su cuenta</h3>
+            <ul>
+              <li>Cada persona entra con su correo y contraseña; después puede entrar sin conexión en ese teléfono.</li>
+              <li>Roles por tienda: dueño, administrador, vendedor y almacenero.</li>
+              <li>El vendedor no ve costos ni ganancias y no puede hacer descuentos. El almacenero lleva entradas, mermas y conteos.</li>
+            </ul>
+          </article>
+          <article class="feature">
+            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="6" width="20" height="12" rx="2"/><circle cx="12" cy="12" r="2.5"/><path d="M6 12h.01M18 12h.01"/></svg></div>
+            <h3>Cuadre de caja</h3>
+            <ul>
+              <li>Anota el fondo de la gaveta al abrir.</li>
+              <li>Al cerrar, cuenta los billetes con la calculadora y la app te dice si cuadra, sobra o falta frente a lo vendido.</li>
+              <li>Historial de cuadres de todos los teléfonos de la tienda.</li>
+            </ul>
+          </article>
+          <article class="feature">
+            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.9 1.9 0 0 0 3.4 0"/></svg></div>
+            <h3>Pagos claros</h3>
+            <ul>
+              <li>Historial de tus pagos y de tus mensualidades dentro de la app.</li>
+              <li>Un aviso unos días antes de que venza tu mes.</li>
+              <li>Si se te pasa la fecha, no se borra nada: tras unos días de gracia se detiene la sincronización y cada teléfono sigue vendiendo.</li>
+            </ul>
+          </article>
+          <article class="feature">
+            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg></div>
+            <h3>Varios teléfonos por tienda</h3>
+            <ul>
+              <li>El mostrador, el almacén y el teléfono del dueño, todos con la misma información.</li>
+              <li>Tu negocio de la versión gratis pasa a Premium como tienda, con todos sus datos.</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="compare-wrap">
+          <h3 class="compare-title">Gratis o Premium</h3>
+          <table class="compare">
+            <thead>
+              <tr><th scope="col">Qué incluye</th><th scope="col">Gratis</th><th scope="col">Premium</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">Inventario, ventas y reportes de ganancia</th><td class="yes">Sí</td><td class="yes">Sí</td></tr>
+              <tr><th scope="row">Funciona sin internet</th><td class="yes">Sí</td><td class="yes">Sí</td></tr>
+              <tr><th scope="row">Respaldo en un archivo</th><td class="yes">Sí</td><td class="yes">Sí</td></tr>
+              <tr><th scope="row">Recorrido guiado y ayuda sin conexión</th><td class="yes">Sí</td><td class="yes">Sí</td></tr>
+              <tr><th scope="row">Negocios</th><td>Uno</td><td>Varios</td></tr>
+              <tr><th scope="row">Copia en línea y sincronización</th><td class="no">No</td><td class="yes">Sí</td></tr>
+              <tr><th scope="row">Varios teléfonos por tienda</th><td class="no">No</td><td class="yes">Sí</td></tr>
+              <tr><th scope="row">Personal con cuenta y roles</th><td class="no">No</td><td class="yes">Sí</td></tr>
+              <tr><th scope="row">Varias tiendas y clonar catálogo</th><td class="no">No</td><td class="yes">Sí</td></tr>
+              <tr><th scope="row">Cuadre de caja</th><td class="no">No</td><td class="yes">Sí</td></tr>
+              <tr><th scope="row">Fotos en la nube</th><td class="no">No</td><td class="yes">Sí</td></tr>
+              <tr class="price-row"><th scope="row">Precio</th><td>Gratis</td><td>500 CUP al mes</td></tr>
+            </tbody>
+          </table>
+          <p class="compare-note">Precio actual. Si cambia, la app muestra el precio vigente antes de pagar.</p>
+        </div>
+
+        <div class="steps-head">
+          <h3>Cómo pasar a Premium</h3>
+          <p>Todo se hace desde la app, en Configuración → Obtener Premium.</p>
+        </div>
+        <ol class="steps">
+          <li>
+            <span class="step-num" aria-hidden="true">1</span>
+            <h4>Crea tu cuenta</h4>
+            <p>Con tu nombre, correo y contraseña. Hace falta conexión solo para este paso.</p>
+          </li>
+          <li>
+            <span class="step-num" aria-hidden="true">2</span>
+            <h4>Paga por Transfermóvil</h4>
+            <p>Escanea el QR que muestra la app o transfiere a la tarjeta el monto de la mensualidad.</p>
+          </li>
+          <li>
+            <span class="step-num" aria-hidden="true">3</span>
+            <h4>Envía el ID de la transacción</h4>
+            <p>Pégalo en la app. Revisamos el pago y activamos Premium a mano, normalmente el mismo día.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
     <section id="datos">
       <div class="wrap">
         <div class="privacy-band">
           <div>
             <div class="kicker" style="color: var(--accent)">Privacidad</div>
             <h2>Tus datos son tuyos.</h2>
-            <p>Todo se guarda en tu teléfono. CalInv no tiene servidores, no te pide una cuenta y no muestra publicidad.</p>
+            <p>En la versión gratis todo se guarda en tu teléfono. Solo se envían informes de errores anónimos, que puedes apagar en Configuración.</p>
+            <p>Con Premium, los datos de tu tienda también se guardan en el servidor propio de Calinv para sincronizar tus teléfonos. Viajan cifrados y no se venden ni se usan para publicidad.</p>
             <p><a href="/privacidad" style="color: var(--accent)">Lee la política de privacidad</a></p>
           </div>
           <ul>
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/></svg>Sin cuentas, sin servidores, sin anuncios</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/></svg>Sin anuncios y sin analítica de terceros</li>
             <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 2l20 20M8.5 16.5a5 5 0 0 1 7 0M2 8.8a15 15 0 0 1 4.2-2.6M10.7 5.1A15 15 0 0 1 22 8.8M5 12.9a10 10 0 0 1 5.2-2.8M17.5 12.4a10 10 0 0 1 1.5 1.3M12 20h.01"/></svg>Funciona sin conexión a internet</li>
             <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>Respaldo en un solo archivo que guardas donde quieras</li>
           </ul>
@@ -162,7 +277,7 @@
     <section class="final">
       <div class="wrap">
         <h2>Deja la libreta. Lleva tu tienda en el bolsillo.</h2>
-        <p>CalInv es gratis y llega muy pronto a Android en Google Play.</p>
+        <p>Calinv es gratis y llega muy pronto a Android en Google Play. Premium se activa desde la app cuando lo necesites.</p>
         <div class="cta-row">
           <!-- Cuando la app esté en producción, cambia este span por:
              <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.calinv.app&amp;hl=es_419"> ... Descargar en Google Play</a> -->
@@ -177,7 +292,7 @@
 
   <footer class="site-footer">
     <div class="wrap">
-      <span>© 2026 CalInv</span>
+      <span>© 2026 Calinv</span>
       <nav aria-label="Pie de página">
         <a href="/privacidad">Política de privacidad</a>
         <a href="/en" hreflang="en" lang="en">English</a>
